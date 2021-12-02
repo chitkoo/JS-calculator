@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #000;
+}
+.calc{
+    width: 400px;
+    margin: 100px auto;
+}
+.display{
+    color: #fff;
+    font-size: 70px;
+    text-align: right;
+    padding: 10px 10px;
+    height: 120px;
+}
+.keypad{
+
+}
+.key{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 35px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(117, 117, 117);
+    cursor: pointer;
+    user-select: none;
+}
+.key:active{
+    background-color: rgb(78, 78, 78);
+}
+.zero{
+    width: 190px;
+    border-radius: 90px;
+}
+tr:first-child td .key{
+    background-color: #a5a5a5;
+    color: #000;
+}
+tr:first-child td .key:active{
+    background-color: #a5a5a590;
+
+}
+tr td:last-child .key{
+    background-color: #ffa45c;
+    color: #fff;
+}
+tr td:last-child .key:active{
+    background-color: #ffa45c90;
+
+}
